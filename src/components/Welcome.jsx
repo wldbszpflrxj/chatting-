@@ -11,10 +11,10 @@ const Welcome = () => {
     }
     return (
         <main className="welcome">
-            <h2>Welcome to React Chat.</h2>
-            <p>Sign in with Google to chat with your fellow React Developers.</p>
-            <button className="sign-in">
-                <img width={30} src={googleIcon} onClick={googleSignIn} alt="sign in with google" type="button"/> google
+            <h2>안녕하세요! 유니짱 채팅방입니다. </h2>
+            <p>구글 아이디로 로그인 해주세요 ^_____^</p>
+            <button type="button" className="sign-in" onClick={googleSignIn} >
+                <img width={30} src={googleIcon} alt="sign in with google" /> google
             </button>
         </main>
     );

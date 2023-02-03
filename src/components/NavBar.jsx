@@ -20,8 +20,8 @@ const NavBar = () => {
             {
             !user
             ? 
-                <button className="sign-in">
-                    <img width={30} src={googleIcon} onClick={googleSignIn} alt="sign in with google" type="button"/> google
+                <button className="sign-in" onClick={googleSignIn} type="button">
+                    <img width={30} src={googleIcon} alt="sign in with google" /> google
                 </button>
             :
                 <button className="sign-out" onClick={googleSignOut} type='button'>
