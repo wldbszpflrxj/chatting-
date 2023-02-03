@@ -1,4 +1,4 @@
-import { collection, limit, onSnapshot, orderBy, query, QuerySnapshot } from 'firebase/firestore';
+import { collection, limit, onSnapshot, orderBy, query } from 'firebase/firestore';
 import React from 'react';
 import { useState } from 'react';
 import { useRef } from 'react';
